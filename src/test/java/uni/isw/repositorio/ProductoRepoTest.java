@@ -20,7 +20,7 @@ public class ProductoRepoTest {
     @Autowired
     private ProductoRepo productoRepo;
     
-     @BeforeEach
+    @BeforeEach
     public void setUp() {
         Producto producto1 = Producto.builder()
                 .nombre("Rose")
